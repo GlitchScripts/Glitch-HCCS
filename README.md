@@ -1,9 +1,7 @@
 # Glitch-HCCS
-I am Glitch (#1885144)
+This is my attempt to learn to script an HCCS run as [Glitch (#1885144)](https://api.aventuristo.net/av-snapshot?u=Glitch)
 
-This is my attempt to learn to script an HCCS run
-
-It started in ASH, but will be slowly shifting into JavaScript/TypeScript when I have time to learn
+It started in ASH, but will be slowly shifting into JavaScript/TypeScript whenever I have spare time to sit down and learn.
 
 
 ## License
