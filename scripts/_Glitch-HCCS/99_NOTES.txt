@@ -1,0 +1,56 @@
+// ***************************
+// *         To Do           *
+// ***************************
+// Automate everything! - seriously, start to finish
+
+
+
+// Take time to read all of the pinned messages in the Community Service channel
+
+
+
+// Fine-tune my route using this: https://docs.google.com/spreadsheets/d/1tDVPCsRc7u1czU4N2AdJnBRpu7lLx7dzZDw2RIvsHvw/edit#gid=1394991807
+
+
+
+//http://www.koldb.com/searchresults.php?type=hardcore&path=cs&sortby=fdt&timetype=ralph&event=ns13&unique=on
+
+//http://www.koldb.com/searchresults.php?type=hardcore&path=cs&days1=1&days2=1&sortby=dt&timetype=ralph&event=ns13&unique=on&lim=500
+
+
+
+// When I have 15 minutes, try creating my first .js file to test out
+// https://loathing-associates-scripting-society.github.io//KoL-Scripting-Resources/Scripting-CS.html
+
+
+
+
+// if (cli_execute("use ITEM_NAME")) {}
+
+
+
+wait(1);
+	visit_url("council.php");
+	run_choice(11); //11=Coil wire
+
+run_choice(1); //1=Donate Blood
+run_choice(2); //2=Feed The Children (Muscle)
+run_choice(3); //3=Build Playground Mazes (Myst)
+run_choice(4); //4=Feed Conspirators (Moxie)
+run_choice(5); //5=Breed More Collies (Familiar Weight)
+run_choice(6); //6=Reduce Gazelle Population (Weapon Damage)
+run_choice(7); //7=Make Sausage (Spell Damage)
+run_choice(8); //8=Be a Living Statue (-Combat)
+run_choice(9); //9=Make Margaritas (Item and Booze Drops)
+run_choice(10); //10=Clean Steam Tunnels (Hot Res)
+run_choice(11); //11=Coil wire
+
+visit_url("choice.php?whichchoice=1089&option=12"); //12=Final Service
+That last one might be 13, need to test	
+
+
+
+
+
+
+.
