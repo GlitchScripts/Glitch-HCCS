@@ -17,12 +17,15 @@ Ungulith for a corrupted marrow
 
 Witchess Bishop for a Sacramento wine (size 1 EPIC booze that gives +50% item drops)
 
-Black Crayon Pirate for a free fight that leaves the Locket with a +50% booze drop buff
+Black Crayon Pirate for a free fight that leaves the locket with a +50% booze drop buff
 
 ## Ascension Details:
 No astral pet required
+
 Astral six-pack recommended
+
 Sauceror
+
 Wallaby (for friendly Degrassi Knoll to get cheap desert access, then tune the moon to Blender for Gno-Mart candies)
 
 // more details to be added later
