@@ -5,7 +5,7 @@
 
 // Make this whole thing a pop-up message of some kind?
 // Does mafia support pop-up messages with drop-down menues? Unlikely, but that would be cool.
-// Need to go back and steal code ideas from Bale's VotingBooth script because I like the way it pops up.
+// Need to go back and steal code ideas from Ezandora's Voting Booth script because I like the way it pops up.
 
 // ***************************
 //        Notes       	     *
