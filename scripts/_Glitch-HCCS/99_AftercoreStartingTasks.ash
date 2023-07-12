@@ -21,6 +21,6 @@ void main()
 	if (cli_execute("av-snapshot.ash")) {} //Love those green boxes
 
 
-		print("AFTERCORE TASKS COMPLETE! Now run Garbo, probably.","blue");
+		print("AFTERCORE TASKS COMPLETE! Now run Garbo, probably. Or you could do some more work on your Philter inventory manager.","blue");
 		
 }

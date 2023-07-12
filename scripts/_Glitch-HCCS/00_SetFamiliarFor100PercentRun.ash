@@ -19,8 +19,7 @@
 void main()
 {
 
-	use_familiar($familiar[Adorable Seal Larva]);
-#35	use_familiar($familiar[Untamed Turtle]);
+	use_familiar($familiar[Untamed Turtle]);
 #34	use_familiar($familiar[Animated Macaroni Duck]);
 #33	use_familiar($familiar[Pet Cheezling]);
 #32	use_familiar($familiar[Autonomous Disco Ball]);

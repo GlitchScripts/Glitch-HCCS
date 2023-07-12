@@ -71,15 +71,11 @@ void main()
 
 
 	wait(1);
-		visit_url("council.php");
+//		visit_url("council.php");
 		run_choice(6); //6=Reduce Gazelle Population (Weapon Damage)
 
 
 
-
-
-//		DON'T KEEP FORGETTING - use Lathe to make an [ebony epee] +weapon item (b/c it combines with bow-legged swagger
-//		DON'T FORGET TO CHANGE MAXIMIZER TO PULLABLE/BUYABLE
 
 	print("Weapon damage test complete!", "blue");
 }
