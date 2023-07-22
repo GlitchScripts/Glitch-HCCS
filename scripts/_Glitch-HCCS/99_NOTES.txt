@@ -49,8 +49,23 @@ visit_url("choice.php?whichchoice=1089&option=12"); //12=Final Service
 That last one might be 13, need to test	
 
 
+if (cli_execute("/whitelist Tautology")) {}
+
+//     /whitelist Not Dead Yet
+//     /whitelist Tautology
+//     /whitelist Collaborative Dungeon Central
+//     /whitelist Collaborative Dungeon Running 1
+//     /whitelist Collaborative Dungeon Running 2
 
 
+
+if (cli_execute("/whitelist Not Dead Yet")) {}
+
+//     /whitelist Not Dead Yet
+//     /whitelist Tautology
+//     /whitelist Collaborative Dungeon Central
+//     /whitelist Collaborative Dungeon Running 1
+//     /whitelist Collaborative Dungeon Running 2
 
 
 .
