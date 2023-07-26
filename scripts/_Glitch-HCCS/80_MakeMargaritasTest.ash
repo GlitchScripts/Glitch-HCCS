@@ -17,33 +17,40 @@ void main()
 
 // This section handles the buffs and item configurations needed to pass the item and booze drop test
 
-
-//		cast steely-eyed squint
-//		monkeypaw effect infernal thirst
-//		Make sure bowling ball is available for item drop test. It makes a difference!
-//		Bowl Straight Up gives Cosmic Ball in the Air (+25% item drop, +50% meat drop)
-// 		Possibly drink your stillsuit booze for +item bonus
-
-// maximizer string: booze drop, -food drop, item drop -equip champagne bottle -equip surprisingly capacious handbag
-
-// 2002 IOTM - Red-soled high heels
-
-
-
-
-
-
-	print("Item/Booze drop test complete!", "blue");
-	
-	print("Now performing Final Service", "blue");
-	
 	wait(1);
-//		visit_url("choice.php?whichchoice=1089&option=12"); //12=Final Service
-//		That last one might be 13, need to test	
-
+		cli_execute("maximize booze drop, -food drop, item drop -equip champagne bottle -equip surprisingly capacious handbag");
 
 	wait(1);
-		if (cli_execute("99_AftercoreStartingTasks.ash")) {}
+		cli_execute("cast 1 steely-eyed squint");
+		cli_execute("cast 1 Feel Lost");
+		cli_execute("cast 1 Fat Leon's Phat Loot Lyric");
+		cli_execute("cast 1 Seek out a Bird");
+		cli_execute("cast 1 Singer's Faithful Ocelot");
+		cli_execute("cast 1 The Spirit of Taking");
+		cli_execute("cast 1 ode");
+		cli_execute("drink 1 Sacramento wine");
+		cli_execute("fortune buff hagnk");
+		cli_execute("monkeypaw effect infernal thirst");
+		
+	print("Check the maximizer manually", "red");
+	print("Possibly drink your stillsuit booze for +item bonus", "blue");
+	print("Possibly Bowl Straight Up for +25% item drop", "blue");
 
+// future do this
+
+	wait(1);
+//		visit_url("council.php");
+//		run_choice(9); //9=Make Margaritas (Item and Booze Drops)
+
+//	print("Item/Booze drop test complete!", "blue");
+	
+//	print("Now performing Final Service", "blue");
+	
+	wait(1);
+//		visit_url("council.php");
+//		run_choice(30); //30=Final Service
+
+	wait(1);
+//		if (cli_execute("99_AftercoreStartingTasks.ash")) {}
 
 }

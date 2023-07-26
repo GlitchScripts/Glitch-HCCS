@@ -18,6 +18,29 @@ void main()
 
 //		Can I use the shortest order cook here to give my familiar some free XP?
 
-	print("Familiar weight test complete!", "blue");
+	wait(1);
+		cli_execute("maximize familiar weight");	
+	
+	wait(1);
+		cli_execute("pool 1");
+		cli_execute("cast 1 Leash of Linguini");
+		cli_execute("cast 1 Empathy of the Newt");
+		cli_execute("cast 1 Blood Bond");
+		cli_execute("cast 1 Cincho: Party Soundtrack");
+		cli_execute("beach head Do I Know You From Somewhere?");
+
+	print("Use Meteor Shower + Saber now", "red");
+	
+
+// future do this
+
+	wait(1);
+//		visit_url("council.php");
+//		run_choice(5); //5=Breed More Collies (Familiar Weight)
+
+
+
+
+//	print("Familiar weight test complete!", "blue");
 
 }

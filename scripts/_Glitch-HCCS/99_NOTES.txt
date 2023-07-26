@@ -44,9 +44,9 @@ run_choice(8); //8=Be a Living Statue (-Combat)
 run_choice(9); //9=Make Margaritas (Item and Booze Drops)
 run_choice(10); //10=Clean Steam Tunnels (Hot Res)
 run_choice(11); //11=Coil wire
+run_choice(30); //30=Final Service
 
-visit_url("choice.php?whichchoice=1089&option=12"); //12=Final Service
-That last one might be 13, need to test	
+visit_url("choice.php?whichchoice=1089&option=30"); //30=Final Service
 
 
 if (cli_execute("/whitelist Tautology")) {}

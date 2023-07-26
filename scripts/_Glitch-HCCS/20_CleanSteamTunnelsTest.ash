@@ -42,7 +42,8 @@ void main()
 		use_skill(1,$skill[Astral Shell]); //+1 Hot Res for 10 MP
 		use_skill(1,$skill[feel peaceful]); //+2 Hot Res
 		cli_execute("beach head Hot-Headed"); //+3 Hot Res
-		
+		if (cli_execute("use 1 MayDay™ supply package")) {} //+1 Hot Res	
+
 	wait(1);
 		visit_url("council.php");
 		run_choice(10); //10=Clean Steam Tunnels (Hot Res)

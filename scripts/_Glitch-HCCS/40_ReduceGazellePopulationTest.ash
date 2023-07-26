@@ -62,7 +62,17 @@ void main()
 
 		
 	wait(1);
+		cli_execute("rest free");
+		cli_execute("rest free");
+		cli_execute("use 1 corrupted marrow");
+		cli_execute("use 1 imported taffy");
+		cli_execute("pool 1");
+		cli_execute("cast 1 Carol of the Bulls");
+		cli_execute("cast 1 Blood Frenzy");
+		cli_execute("boombox these fists were made for punchin'");
+		cli_execute("use 1 Meleegra™ pills");
 		cli_execute("cast Bow-Legged Swagger");
+		cli_execute("cast Song of the North");
 		cli_execute("monkeypaw effect outer wolf"); //For +200% weapon damage, which is +400% with bow-legged swagger and saves 8 turns
 		cli_execute("monkeypaw effect Pyramid Power"); //For +100% weapon damage, which is +200% with bow-legged swagger and saves 4 turns
 		cli_execute("cargo pick 284"); //Pocket #284 is Yeg's Motel toothbrush (Potion: 50 turns of +200% weapon damage)
