@@ -19,9 +19,7 @@
 void main()
 {
 
-	use_familiar($familiar[Autonomous Disco Ball]);
-#31	use_familiar($familiar[Mariachi Chihuahua]);
-#30	use_familiar($familiar[Pottery Barn Owl]);
+	use_familiar($familiar[Pottery Barn Owl]);
 #29	use_familiar($familiar[Smiling Rat]);
 #28	use_familiar($familiar[Holiday Log]);
 #27	use_familiar($familiar[Feral Kobold]);

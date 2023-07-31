@@ -18,6 +18,8 @@ void main()
 	set_property("choiceAdventure1414", "3"); //Option 3 = Sneaky Pete's key
 	if (use_skill(1,$skill[Lock Picking])) {} //Aquire a Sneaky Pete's key
 	if (cli_execute("make 1 Sneaky Pete's key lime")) {} //Automatically cook a lime and Sneaky Pete's key
+	if (cli_execute("make 1 meat butler")) {}
+	if (cli_execute("use 1 meat butler")) {}
 	if (cli_execute("av-snapshot.ash")) {} //Love those green boxes
 
 

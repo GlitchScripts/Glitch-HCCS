@@ -15,7 +15,8 @@ void main()
 // This section handles the buffs and item configurations needed to pass the Spell Damage test
 
 
-
+	wait(1);
+		cli_execute("maximize spell dmg");	
 
 	wait(1);
 		cli_execute("rest free");

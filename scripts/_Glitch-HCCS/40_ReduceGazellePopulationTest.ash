@@ -59,7 +59,8 @@ void main()
 		//special action
 		//attack with weapon
 		
-
+	wait(1);
+		cli_execute("maximize weapon dmg");	
 		
 	wait(1);
 		cli_execute("rest free");
