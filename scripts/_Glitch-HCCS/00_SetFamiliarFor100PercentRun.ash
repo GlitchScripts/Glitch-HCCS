@@ -19,26 +19,24 @@
 void main()
 {
 
-	use_familiar($familiar[Pottery Barn Owl]);
-#29	use_familiar($familiar[Smiling Rat]);
-#28	use_familiar($familiar[Holiday Log]);
+	use_familiar($familiar[Oily Woim]);
+#21	use_familiar($familiar[Adorable Space Buddy]);
+#20	use_familiar($familiar[Nosy Nose]);
+#18	use_familiar($familiar[Miniature Sword & Martini Guy]);
+#17	use_familiar($familiar[Putty Buddy]);
+#11	use_familiar($familiar[Restless Cow Skull]);
+
+#00	use_familiar($familiar[Holiday Log]);
 #27	use_familiar($familiar[Feral Kobold]);
 #26	use_familiar($familiar[Peppermint Rhino]);
 #25	use_familiar($familiar[Flaming Face]);
 #24	use_familiar($familiar[Mini-Skulldozer]);
-#23	use_familiar($familiar[Oily Woim]);
-#22	use_familiar($familiar[Homemade Robot]); //SPECIAL NOTE - only 90% fam run possible with this guy in Community Service
-#21	use_familiar($familiar[Adorable Space Buddy]);
-#20	use_familiar($familiar[Nosy Nose]);
 #19	use_familiar($familiar[Warbear Drone]);
-#18	use_familiar($familiar[Miniature Sword & Martini Guy]);
-#17	use_familiar($familiar[Putty Buddy]);
 #16	use_familiar($familiar[Twitching Space Critter]);
 #15	use_familiar($familiar[Helix Fossil]);
 #14	use_familiar($familiar[Xiblaxian Holo-Companion]);
 #13	use_familiar($familiar[Baby Z-Rex]);
 #12	use_familiar($familiar[Lil' Barrel Mimic]);
-#11	use_familiar($familiar[Restless Cow Skull]);
 #10	use_familiar($familiar[Chocolate Lab]);
 #9	use_familiar($familiar[Cute Meteor]);
 #8	use_familiar($familiar[Unspeakachu]);
@@ -50,6 +48,7 @@ void main()
 #2	use_familiar($familiar[Party Mouse]);
 #1	use_familiar($familiar[Yule Hound]);
 
+#22	use_familiar($familiar[Homemade Robot]); //SPECIAL NOTE - only 90% fam run possible with this guy in Community Service
 
 	equip($slot[familiar], $item[tiny stillsuit]);
 
