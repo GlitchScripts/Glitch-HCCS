@@ -73,8 +73,11 @@ void main()
 	wait(1);
 		cli_execute("guzzlr abandon");
 	wait(1);
-		cli_execute("set choiceAdventure1494 = 1");	//Pick which of the 3 choices you want for the S.I.T. Course Completion Certificate
+		cli_execute("set choiceAdventure1494 = 2");	//Pick which of the 3 choices you want for the S.I.T. Course Completion Certificate
 		use($item[S.I.T. Course Completion Certificate]); //Then use the S.I.T. Course item
+			//1 = Write in Psychogeology, aftercore valuable is lump of loyal latite (+5 fam weight)
+			//2 = Write in Insectology, aftercore valuable is flapper fly (100% meat drop)
+			//3 = Write in Cryptobotany, no aftercore value
 
 
 ## 	IMPORTANT! This option depends on which class you are running:

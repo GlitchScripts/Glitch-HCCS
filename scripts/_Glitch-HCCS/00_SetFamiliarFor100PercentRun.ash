@@ -18,17 +18,7 @@
 
 void main()
 {
-
-	use_familiar($familiar[Oily Woim]);
-#21	use_familiar($familiar[Adorable Space Buddy]);
-#20	use_familiar($familiar[Nosy Nose]);
-#18	use_familiar($familiar[Miniature Sword & Martini Guy]);
-#17	use_familiar($familiar[Putty Buddy]);
-#11	use_familiar($familiar[Restless Cow Skull]);
-
-#00	use_familiar($familiar[Holiday Log]);
-#27	use_familiar($familiar[Feral Kobold]);
-#26	use_familiar($familiar[Peppermint Rhino]);
+	use_familiar($familiar[Peppermint Rhino]);
 #25	use_familiar($familiar[Flaming Face]);
 #24	use_familiar($familiar[Mini-Skulldozer]);
 #19	use_familiar($familiar[Warbear Drone]);
