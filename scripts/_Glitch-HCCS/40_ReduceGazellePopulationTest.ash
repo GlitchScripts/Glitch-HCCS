@@ -49,11 +49,10 @@ void main()
 		cli_execute("rest free"); //Mafia performs a free rest in your campaway tent, which restores up to 200-300 HP and 100-150 MP
 		use_skill(2,$skill[Oode to booze]); {} //50x2 MP
 		use_skill(1,$skill[eye and a twist]); {} //50 MP
-		cli_execute(drink 1 eye and a twist); {} //5-6 adventures for 1 liver
-		cli_execute(drink 6 astral pilsner)) {} //11 adventures per 1 liver
+		cli_execute("drink 1 eye and a twist"); {} //5-6 adventures for 1 liver
+		cli_execute("drink 6 astral pilsner"); {} //11 adventures per 1 liver
 			// If you are below level 11 when you drink this you won't get all 11 adventures
-		
-		
+				
 		cli_execute("rest free");
 		cli_execute("rest free");
 		cli_execute("use 1 corrupted marrow");
@@ -72,7 +71,7 @@ void main()
 
 
 	wait(1);
-//		visit_url("council.php");
+		visit_url("council.php");
 		run_choice(6); //6=Reduce Gazelle Population (Weapon Damage)
 
 
