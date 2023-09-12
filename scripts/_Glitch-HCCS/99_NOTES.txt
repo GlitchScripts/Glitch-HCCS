@@ -7,6 +7,9 @@
 
 // Take time to read all of the pinned messages in the Community Service channel
 
+Add this to HCCS if I need a few more adventures
+	if (use_skill(1,$skill[bowl full of jelly])) {} //50 MP
+	if (cli_execute(eat 1 bowl full of jelly)) {} //5-6 adventures for 1 fullness
 
 
 // Fine-tune my route using this: https://docs.google.com/spreadsheets/d/1tDVPCsRc7u1czU4N2AdJnBRpu7lLx7dzZDw2RIvsHvw/edit#gid=1394991807
@@ -66,6 +69,20 @@ if (cli_execute("/whitelist Not Dead Yet")) {}
 //     /whitelist Collaborative Dungeon Central
 //     /whitelist Collaborative Dungeon Running 1
 //     /whitelist Collaborative Dungeon Running 2
+
+
+If I find a way to get a CHERRY easily with a future IOTM, then consider adding this back into my script and save a monkeypaw wish to gain the myst equalizing effect:
+
+
+	print("You should now have a cherry that you can saucecraft", "blue");
+		
+		use_skill(1,$skill[advanced saucecrafting]); //10 MP to generate five scrumptious reagents
+		if (cli_execute(make 1 oil of expertise)) {} //cherry + scrumptious reagent
+		if (cli_execute(use 1 oil of expertise)) {} //Makes your Muscle and Moxie equal to your Mysticality for 5 Adventures		
+
+
+
+
 
 
 .
