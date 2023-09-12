@@ -19,10 +19,10 @@ void main()
 	if (use_skill(1,$skill[Lock Picking])) {} //Aquire a Sneaky Pete's key
 	if (cli_execute("make 1 Sneaky Pete's key lime")) {} //Automatically cook a lime and Sneaky Pete's key
 	if (cli_execute("make 1 meat butler")) {}
-	if (cli_execute("use 1 meat butler")) {}
+	if (cli_execute("use 1 meat butler")) {} //+4 adventures tomorrow
 	if (cli_execute("av-snapshot.ash")) {} //Love those green boxes
+	if (cli_execute("philter")) {} //Keep my inventory clean and my mall store stocked
 
-
-		print("AFTERCORE TASKS COMPLETE! Now run Garbo, probably. Or you could do some more work on your Philter inventory manager.","blue");
+		print("AFTERCORE TASKS COMPLETE! Now run Garbo, probably.","blue");
 		
 }
