@@ -36,7 +36,7 @@ void main()
 	// Now adventure in the NEP
 		adv1($location[the neverending party], -1, "");
 
-		print("You should now have 1 turn of Meteor Showered (+100% Weapon Damage)", "blue");
+		print("You should now have 1 turn of Meteor Showered (+200% Weapon Damage)", "blue");
 		
 	set_property("customCombatScript","default.ccs"); //Change back to this for a clean slate to avoid any future mixups
 		//[ default ]
