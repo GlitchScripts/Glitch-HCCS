@@ -18,7 +18,7 @@ void main()
 	print("Begin powerleveling via free fights to go from Level 5 to Level 15 for the stat tests", "blue");
 	
 
-// Start with some specific free fights
+	// Start with some specific free fights
 
 	wait(1);
 		cli_execute("outfit _HCCS-GarbageShirtScrapbook"); //Make sure this outfit equips the Saber and Scrapbook (for +exp), but NOT June Cleaver or Kramco (don't want wanderers or unexpected non-combats)
@@ -66,99 +66,52 @@ void main()
 	print("Your combat lover's locket should now have +50% Booze Drops to help cap the Item Test", "blue");
 
 
-
-///////////////////////////////////////////////////////////////////////////////////////////////
-//	Then move on to the rest of my free fights for power leveling via NEP and Backing Up to Sausage Goblins
-
 	wait(1);
-		cli_execute("outfit _HCCS-PowerLeveling-Myst"); //Outfit with saber + Kramco + bastille item
+		cli_execute("outfit _HCCS-PowerLeveling"); //Outfit with Saber + Kramco + Cincho (for the Confetti Extravaganza combat skill which "doubles statgain at end of fight")
+		
+		
+	//FUTURE - ADD SOME CRAZY CUSTOM COMBAT SCRIPT STUFF HERE TO HANDLE MY FREE FIGHTS FOR ME//
+		
+		print("Now use free scaling fights in NEP (combined with Backing Up to Sausage Goblins). I'll script this later.", "blue");
 
-	wait(1);
-		adv1($location[the neverending party], -1, ""); //Spent 1 free turn in NEP to reach Level 5 and simultaneously force a non-combat, but make sure Kramco and June Cleaver are NOT equipped
-		
-		
-		
-// Get an early Kramco goblin and back up to it 11 times for the scaling monster stats. Later on, I can refine how many free fights, backups, and other resources I use in order to save them for garbo profits in aftercore. But for now, just breeze through the HCCS loops.
 
-//	Remember to use chest x-rays, shattering punches, gingerbread hit, and smoke bombs after the 10 NEP free fights are used up
+
 
 // Don't use the equalizing oil until free fights are done otherwise scalers are more difficult than they need to be
 
-// IF YOU GET STUCK AND CAN'T MAX THE TESTS, CHANGE MAXIMIZER TO PULLABLE/BUYABLE
-
-
-
-
-## 	IMPORTANT! This section is only useful if you're a mysticality class:
-
-		set_property("choiceAdventure1059", "1"); //Helping Make Ends Meat > Sure, I'll go check it out (accept the Meatsmith's quest)
-		visit_url("shop.php?whichshop=meatsmith");
-		
-		
-	//At this point I'm not yet sure how to select the choice "What do you need?" since it's not truely a choice adventure
-		run_choice(1); //UNTESTED!!! Choose "What do you need?"
-		
-		
-	//Once that's figured out, then I can accept the quest and unlock the Skeleton Store
-		visit_url("choice.php?whichchoice=1059&option=1");
-
-
-	//Get the initial visit out of the way "Skeletons In Store"
-		visit_url("adventure.php?snarfblat=439"); //The Skeleton Store (Zone #439)
-
-	//Then map the monsters and fight a novelty tropical skeleton for a cherry (myst: oil of expertise) or a 
-		use_skill(1,$skill[map the monsters]);
-		visit_url("adventure.php?snarfblat=439"); //The Skeleton Store (Zone #439)
-		run_choice(1, "heyscriptswhatsupwinkwink=1746"); //Fight a novelty tropical skeleton, monster ID #1746
+## 	IMPORTANT! This option depends on which class you are running:
+##	Stat equalizing effects:
+	//	monkeypaw effect Expert Oiliness  //Makes your Muscle and Moxie equal to your MYSTICALITY (easy to obtain in-run from Skeleton store, but uses a Saber)
+	//	monkeypaw effect Stabilizing Oiliness  //Makes your Mysticality and Moxie equal to your MUSCLE (lime is hard to get in an HCCS run)
+	//	monkeypaw effect Slippery Oiliness  //Makes your Muscle and Mysticality equal to your MOXIE (jumbo olive is hard to get in an HCCS run)
 	
-	wait(1);
- 		cli_execute("outfit _HCCS-Parka"); //Make sure this outfit does NOT equip June Cleaver or Kramco (don't want wanderers or unexpected non-combats)
-		cli_execute("parka acid"); //Switches to dilophosaur mode, which allows using "Spit jurassic acid" (yellow ray with a free kill, 99 turn cooldown)
-		
-		
-	wait(1);
-		set_property("customCombatScript","HCCS-YellowRay_NoveltyTropicalSkeleton.ccs");
-			//[ default ]
-			//skill Spit jurassic acid
-			//skill shattering punch
-			//attack with weapon
-			
-			
-	print("You should now have a cherry that you can saucecraft", "blue");
-		
-		use_skill(1,$skill[advanced saucecrafting]); //10 MP to generate five scrumptious reagents
-		if (cli_execute(make 1 oil of expertise)) {} //Makes your Muscle and Moxie equal to your Mysticality for 5 Adventures
+	
+
+// 	print("IF YOU GET STUCK AND CAN'T MAX THE TESTS, CHANGE MAXIMIZER TO PULLABLE/BUYABLE.", "red");
+	
+	
+//	wait(1);
+//		visit_url("council.php");
+//		run_choice(3); //3=Build Playground Mazes (Myst)
+//			print("Myst stat test complete!", "blue");
 
 
+//	wait(1);
+//		cli_execute("maximize muscle");
+//		visit_url("council.php");
+//		run_choice(2); //2=Feed The Children (Muscle)
+//		run_choice(1); //1=Donate Blood (HP)
+//			print("Muscle stat and HP tests complete!", "blue");
 
 
+//	wait(1);
+//		cli_execute("maximize moxie");
+//		visit_url("council.php");
+//		run_choice(4); //4=Feed Conspirators (Moxie)
+//			print("Moxie stat test complete!", "blue");
 
+	
+// 	print("The three stat tests and the HP test are now complete.", "blue");
 
-
-
-#######################################
-##MANUAL COMMAND SECTION
-#######################################
-
-
-############# MYSTICALITY CLASS #############
-//Oil of expertise	2,000 - easy to obtain in-run from Skeleton store -	Expert Oiliness (5 Adventures) Makes your Muscle and Moxie equal to your Mysticality
-
-############# MUSCLE CLASS #############
-//Oil of stability		Stabilizing Oiliness (5 Adventures) Makes your Mysticality and Moxie equal to your Muscle
-//maybe monkey wish for the Stabilizing Oiliness effect if musc class (lime itself is not wishable)
-
-
-############# MOXIE CLASS #############
-//Oil of slipperiness - (5 Adventures of Slippery Oiliness) Makes your Muscle and Mysticality equal to your Moxie
-// monkeypaw effect Slippery Oiliness
-
-#######################################
-
-
-
-
-
- 	print("The three stat tests and the HP test are now complete.", "blue");	
 }
 
