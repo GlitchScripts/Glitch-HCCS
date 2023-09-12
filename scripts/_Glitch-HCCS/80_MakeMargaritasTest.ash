@@ -30,7 +30,7 @@ void main()
 		cli_execute("cast 1 ode");
 		cli_execute("drink 1 Sacramento wine");
 		cli_execute("fortune buff hagnk");
-		cli_execute("monkeypaw effect infernal thirst");
+		cli_execute("genie effect infernal thirst");
 		
 	print("Check the maximizer manually", "red");
 	print("Possibly drink your stillsuit booze for +item bonus", "blue");
