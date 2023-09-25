@@ -7,7 +7,7 @@ I plan on adding a comprehensive list later, but unfortunately this script requi
 
 [Glitch (#1885144)](https://api.aventuristo.net/av-snapshot?u=Glitch)
 
-The good news is that the script is very linear and easy to understand, so you can just copy the portion that's relevant for your needs.
+The good news is that the script is very linear and easy to understand, so someone can just copy the portion that's relevant to their needs if interested.
 
 ## Required HC-Permed Skills:
 So many...will try to list them all someday. Here are some critical ones:
@@ -49,14 +49,14 @@ Sauceror
 [The Wallaby](https://kol.coldfront.net/thekolwiki/index.php/The_Wallaby) (for [friendly Degrassi Knoll](https://kol.coldfront.net/thekolwiki/index.php/The_Degrassi_Knoll_Bakery_and_Hardware_Store) to get cheap desert access, then tune the moon to [The Blender](https://kol.coldfront.net/thekolwiki/index.php/The_Blender) for [Gno-Mart](https://kol.coldfront.net/thekolwiki/index.php/Gno-Mart) candies)
 
 ## Installation
-Run this command in the graphical CLI:
+Run this command in the graphical CLI to install the project:
 ```
 git checkout https://github.com/GlitchScripts/Glitch-HCCS main
 ```
 
 ## Removal
-Run this command in the graphical CLI:
+Run this command in the graphical CLI to remove the project:
 ```
-git delete https://github.com/GlitchScripts/Glitch-HCCS main
+git delete Glitch-HCCS main
 ```
 It will require a [recent build of KoLMafia](https://github.com/kolmafia/kolmafia/releases).
