@@ -18,9 +18,7 @@
 
 void main()
 {
-	use_familiar($familiar[Mutant Cactus Bud]);
-#23	use_familiar($familiar[Mutant Gila Monster]);
-#22	use_familiar($familiar[Underworld Bonsai]);
+	use_familiar($familiar[Underworld Bonsai]);
 #21	use_familiar($familiar[Peppermint Rhino]);
 #20	use_familiar($familiar[Flaming Face]);
 #19	use_familiar($familiar[Mini-Skulldozer]);
