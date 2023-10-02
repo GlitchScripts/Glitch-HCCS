@@ -47,7 +47,7 @@ void main()
 		
 	wait(1);
 		cli_execute("rest free"); //Mafia performs a free rest in your campaway tent, which restores up to 200-300 HP and 100-150 MP
-		use_skill(2,$skill[Oode to booze]); {} //50x2 MP
+		use_skill(2,$skill[ode to booze]); {} //50x2 MP
 		use_skill(1,$skill[eye and a twist]); {} //50 MP
 		cli_execute("drink 1 eye and a twist"); {} //5-6 adventures for 1 liver
 		cli_execute("drink 6 astral pilsner"); {} //11 adventures per 1 liver
