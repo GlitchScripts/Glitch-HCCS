@@ -12,7 +12,6 @@ void main()
 	if (cli_execute("refresh all")) {} //Mafia doesn't always realize I'm in aftercore after a 1-day run
 	if (cli_execute("uneffect feeling lost")) {} //Since I route the item test at the end and this effect is undesireable
 	if (cli_execute("pull all")) {} //This takes about 40-60 seconds
-	if (cli_execute("_G-Use_Skillbooks.ash")) {} //Once these reusable skills are all permed, this line can go away
 	if (cli_execute("breakfast")) {} //Good to do this after pulling everything out of storage
 	if (cli_execute("rest")) {} //Mafia performs a free rest in your campaway tent, which restores up to 200-300 HP and 100-150 MP
 	set_property("choiceAdventure1414", "3"); //Option 3 = Sneaky Pete's key
@@ -21,8 +20,9 @@ void main()
 	if (cli_execute("make 1 meat butler")) {}
 	if (cli_execute("use 1 meat butler")) {} //+4 adventures tomorrow
 	if (cli_execute("av-snapshot.ash")) {} //Love those green boxes
-	if (cli_execute("philter")) {} //Keep my inventory clean and my mall store stocked
 
-		print("AFTERCORE TASKS COMPLETE! Now run Garbo, probably.","blue");
+		print("AFTERCORE TASKS COMPLETE! Now running Philter for inventory cleanup, and then you'll probably want to run Garbo.","blue");
+
+	if (cli_execute("philter")) {} //Keep my inventory clean and my mall store stocked
 		
 }
