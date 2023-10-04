@@ -18,10 +18,7 @@
 
 void main()
 {
-	use_familiar($familiar[Underworld Bonsai]);
-#21	use_familiar($familiar[Peppermint Rhino]);
-#20	use_familiar($familiar[Flaming Face]);
-#19	use_familiar($familiar[Mini-Skulldozer]);
+	use_familiar($familiar[Mini-Skulldozer]);
 #18	use_familiar($familiar[Warbear Drone]);
 #17	use_familiar($familiar[Twitching Space Critter]);
 #16	use_familiar($familiar[Helix Fossil]);

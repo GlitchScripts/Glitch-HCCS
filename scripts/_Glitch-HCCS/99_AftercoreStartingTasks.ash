@@ -19,6 +19,9 @@ void main()
 	if (cli_execute("make 1 Sneaky Pete's key lime")) {} //Automatically cook a lime and Sneaky Pete's key
 	if (cli_execute("make 1 meat butler")) {}
 	if (cli_execute("use 1 meat butler")) {} //+4 adventures tomorrow
+	if (cli_execute("create 1 box of Familiar Jacks")) {}
+	if (cli_execute("create 1 box of Familiar Jacks")) {}
+	if (cli_execute("use 1 circle drum")) {}
 	if (cli_execute("av-snapshot.ash")) {} //Love those green boxes
 
 		print("AFTERCORE TASKS COMPLETE! Now running Philter for inventory cleanup, and then you'll probably want to run Garbo.","blue");
