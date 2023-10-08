@@ -30,49 +30,33 @@ void main()
 
 
 // This section handles the bulk of my early item handling tasks and some buffs
-	wait(1);
 		if (cli_execute("genie wish for more wishes")) {}
-	wait(1);
 		if (cli_execute("genie wish for more wishes")) {}
-	wait(1);
 		if (cli_execute("genie wish for more wishes")) {}
-	wait(1);
 		if (cli_execute("use Newbiesport™ tent")) {}
-	wait(1);
 		if (cli_execute("use astral six-pack")) {}
-	wait(1);
 		visit_url("place.php?whichplace=speakeasy&action=olivers_pooltable"); //For ~50 free meat
-	wait(1);
 		cli_execute("tutorial.php?action=toot"); //Not sure why this works. Need to learn more about visit_url vs. cli_execute
-	wait(1);
 		cli_execute("use letter from King Ralph XI");
-	wait(1);
 		cli_execute("use pork elf goodies sack");
-	wait(1);
 		cli_execute("autosell * baconstone");
 		cli_execute("autosell * hamethyst");
 		cli_execute("autosell * porquoise");
-	wait(1);
 		cli_execute("make bitchin"); //make the meatcar for desert access
-	wait(1);
 		cli_execute("hermit * clover");
-	wait(1);
 		cli_execute("raffle 3 storage"); //Meh, just buy three tickets
-	wait(1);
 		use_skill(1,$skill[summon crimbo candy]); //3 MP and want to ensure this is done early in the run for those valuable complex candies
-	wait(1);
+		
 		cli_execute("fold makeshift garbage shirt");
-	wait(1);
 		cli_execute("outfit _HCCS-GarbageShirtScrapbook"); //Make sure this outfit does NOT equip Kramco (don't waste those strong scalers this early), and make sure it DOES include the garbage shirt (not Parka yet), as well as the Familiar Scrapbook (for the stat gains)
-	wait(1);
+		
 		cli_execute("saber familiar");
 		cli_execute("backupcamera reverser on");
 		cli_execute("backupcamera ml");
 		cli_execute("boombox food"); //Set this to "food" here for the +3-5 MP regen to refill MP during the coil wire test
 		cli_execute("guzzlr accept platinum");
-	wait(1);
 		cli_execute("guzzlr abandon");
-	wait(1);
+
 		cli_execute("set choiceAdventure1494 = 2");	//Pick which of the 3 choices you want for the S.I.T. Course Completion Certificate
 		use($item[S.I.T. Course Completion Certificate]); //Then use the S.I.T. Course item
 			//1 = Write in Psychogeology, aftercore valuable is lump of loyal latite (+5 fam weight)
@@ -81,19 +65,15 @@ void main()
 
 
 ## 	IMPORTANT! This option depends on which class you are running:
-	wait(1);
 //		cli_execute("retrocape muscle thrill");
 		cli_execute("retrocape mysticality thrill");
 //		cli_execute("retrocape moxie thrill");
 
 
 ## 	IMPORTANT! This option depends on which class you are running:
-	
-	wait(1);
 		//	Mafia might throw an error when tuning the moon WHILE the spoon is equipped, so let's unequip it now and maybe test it later to confirm
 		cli_execute("unequip hewn moon-rune spoon"); //This won't do anything bad if the spoon ISN'T equipped, so just run it to be safe
 				
-	wait(1);
 		visit_url("inv_use.php?whichitem=10254&pwd&doit=96&whichsign=8"); //Tune the moon with the spoon
 		
 //			1=The Mongoose
