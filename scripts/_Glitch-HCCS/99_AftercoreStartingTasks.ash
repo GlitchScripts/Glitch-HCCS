@@ -7,7 +7,7 @@
 
 void main()
 {
-		print("STARTING POST-HCCS SCRIPT","green");
+	print("STARTING POST-HCCS SCRIPT","green");
 
 	if (cli_execute("refresh all")) {} //Mafia doesn't always realize I'm in aftercore after a 1-day run
 	if (cli_execute("uneffect feeling lost")) {} //Since I route the item test at the end and this effect is undesireable
@@ -23,9 +23,7 @@ void main()
 	if (cli_execute("create 1 box of Familiar Jacks")) {} //Profit
 	if (cli_execute("use 1 circle drum")) {} //Why not?
 	if (cli_execute("av-snapshot.ash")) {} //Love those green boxes
+	if (cli_execute("philter")) {} //Now run Philter for inventory cleanup and to stock my mall store
 
-		print("AFTERCORE TASKS COMPLETE! Now running Philter for inventory cleanup, and then you'll probably want to run Garbo.","blue");
-
-	if (cli_execute("philter")) {} //Keep my inventory clean and my mall store stocked
-		
+	print("AFTERCORE TASKS COMPLETE! Now work on Trophies, farm Dreadsylvania, or run Garbo.","blue");
 }
