@@ -18,8 +18,14 @@
 
 void main()
 {
-	use_familiar($familiar[Mini-Skulldozer]);
-#18	use_familiar($familiar[Warbear Drone]);
+	use_familiar($familiar[Chest Mimic]);
+#23	use_familiar($familiar[Hanukkimbo Dreidl]);
+#22	use_familiar($familiar[Sausage Golem]);
+#21	use_familiar($familiar[Flaming Leafcutter Ant]);
+#20	use_familiar($familiar[Pet Anchor]);
+#19	use_familiar($familiar[Rigging Snake]);
+#18	use_familiar($familiar[Sludgepuppy]);
+
 #17	use_familiar($familiar[Twitching Space Critter]);
 #16	use_familiar($familiar[Helix Fossil]);
 #15	use_familiar($familiar[Xiblaxian Holo-Companion]);
